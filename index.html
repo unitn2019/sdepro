@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Expense Tracker</title>
+
+    </head>
+    <boby>
+        <h3>Spend wisely</h3>
+        
+    <link rel="stylesheet" href="index.css">
+    <script defer src="fetchdata.js"></script>
+        
+        <br>
+    <div class="main">
+           
+                <div class="container4">
+                
+            
+                    <h4>My Budget</h4>
+                    <input type="budget" value="Enter budget amount">
+
+                </div>
+                <br>
+            <div class="container5">
+               
+        <h2>Expenses</h2>              
+
+                <form action="/action_page.php">
+                    <label for="category">Choose a category:</label>
+                    <select name="category" id="category">
+                      <option value="None">None</option>
+                      <option value="Medical">Medical</option>
+                      <option value="Educationl">Education</option>
+                      <option value="Electricity">Electricity</option>
+                      <option value="Utilities">Utilities</option>
+                      <option value="saab">Fruits</option>
+                      <option value="opel">Vegetables</option>
+                      <option value="audi">Grocery</option>
+                      <option value="Electricity">Diary</option>
+                      <option value="Utilities">Sports</option>
+                    </select>
+                         <br>
+                          <br>
+                    <input type="submit" value="Create">
+                    
+                  </form>
+                
+                          
+    <div class ="expenses">
+
+       
+        <script type="text/javascript" src="fetchdata.js"></script>
+        <button onclick="allExpenses()">View expenses</button>
+        
+    </div>
+    </div> 
+    <br>
+    <br>
+    <button>Generate report</button> 
+       <br>
+    <br> 
+    <textarea></textarea>  
+    
+</boby>
+</html>
